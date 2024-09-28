@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="yoasobi.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-left">
+            <a href="mainpage.html"><img id="tft-img" src="./img/tft.jpg" alt=""></a>
+        </div>
+        <div id="header-main">
+            <img id="loupe" src="./img/loupe.svg" alt="">
+            <input type="text" placeholder="Kiếm bài hát, nghệ sĩ" value="" id="search-bar" onkeyup="myFuntion()">
+        </div>
+        <div id="header-right">
+            <div>
+                <input type="file" name="file" id="inputfile">
+                <button id="upload"><img id="file-img" src="./img/upload.svg" alt=""></button>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle button" type="button" data-toggle="dropdown"><img
+                        id="settings-icon" src="./img/settings.svg" alt="">
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li id="first-line"><img id="settings" src="./img/settings.svg" alt=""><a href="#">Danh sách của
+                            tôi</a></li>
+                    <li class="line"><a href="#">Giới thiệu</a></li>
+                    <li class="line"><a href="#">Góp ý</a></li>
+                    <li class="line"><a href="#">Quảng cáo</a></li>
+                    <li class="line"><a href="#">Thoả thuận sử dụng</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle button" type="button" data-toggle="dropdown"><img
+                        src="./img/user.svg" alt="">
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li id="first-line"><a href="#">Bài hát yêu thích</a></li>
+                    <li class="line"><a href="#">Liên hệ</a></li>
+                    <li class="line"><a href="#">Đăng kí lên VIP</a></li>
+                    <li class="line"><a href="signup.html">Đăng xuất</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="navbar">
+        <a class="nav-items" href="singer.html">Singers</a>
+        <a class="nav-items" href="community.html">Community</a>
+        <a class="nav-items" href="quiz.html">Quiz</a>
+    </div>
+    <div id="sum">
+        <div id="short-bio">
+            <img src="./img/yoasobi.jpg" alt="">
+            <div>
+                <h1>YOASOBI</h1>
+                <h3>Country: Japan</h3>
+                <h3>Member:</h3>
+                <h4>Ayase (composer)</h4>
+                <h4>Ikura (vocal)</h4>
+            </div>
+        </div>
+        <img src="./img/Yoasobi2.jpg" alt="">
+    </div>
+    <div id="full-bio">
+        <div id="left">
+            <div id="biography">
+                <span style="color: #2daaed; font-size: 30px;">TIỂU SỬ </span>
+                <span style="font-size: 30px;color: #2daaed;"> ></span>
+                <p>Cả hai thành viên của Yoasobi đều có thành công trong sự nghiệp âm nhạc trước khi thành lập nhóm.
+                    Ayase đã thu hút được nhiều người theo dõi trên trang Niconico của mình kể từ lần tải lên đầu tiên
+                    vào ngày 24 tháng 12 năm 2018, bài hát có tựa đề Sentensei Assault Girl (先天性アサルトガール?). Vào ngày 23
+                    tháng 11 năm 2019, anh ấy đã phát hành EP, Yūrei Tōkyō (幽霊東京?), đạt thứ ba trên bảng xếp hạng album
+                    của iTunes. Rira Ikuta (幾田りら?), biểu diễn dưới tên Ikura, đã phát hành hai EP: Rerise vào năm 2017
+                    và Jukebox vào năm 2019.</p>
+                <div id="hide">
+                    <p>Bài hát đầu tiên do bộ đôi phát hành là "Yoru ni Kakeru" (Tiến vào màn đêm), dựa trên truyện ngắn
+                        "Thanatos no Yūwaku" của Mayo Hoshino. Video âm nhạc được phát hành vào ngày 16 tháng 11 năm
+                        2019,
+                        đạt 10 triệu lượt xem trong 5 tháng trên YouTube cũng như phổ biến trên TikTok. Sau đó, nó được
+                        phát
+                        hành dưới dạng đĩa đơn vào ngày 15 tháng 12 năm 2019 và đứng đầu bảng xếp hạng phổ biến trên cả
+                        Spotify và Line Music. Hơn năm tháng sau khi phát hành, đĩa đơn này đứng đầu bảng xếp hạng
+                        Billboard
+                        Japan Hot 100 vào ngày 1 tháng 6 năm 2020 và nhiều ngày sau đó.</p>
+                    <p>Sau thành công của bản phát hành đầu tiên, vào ngày 18 tháng 1 năm 2020, Yoasobi phát hành đĩa
+                        đơn
+                        thứ hai của họ, " Ano Yume o Nazotte ", lần này dựa trên "Yume no Shizuku to Hoshi no Hana" của
+                        Sōta
+                        Ishiki. Vào ngày 20 tháng 4 năm 2020, Yoasobi đã phát hành một đoạn teaser cho đĩa đơn thứ ba
+                        của
+                        họ, " Halzion ", dựa trên "Soredemo, Happy End" của Shunki Hashizume. "Halzion" đánh dấu lần đầu
+                        tiên Yoasobi hợp tác với một tiểu thuyết gia chuyên nghiệp, trong khi hai người đầu tiên là
+                        những
+                        nhà văn nghiệp dư. Đĩa đơn được phát hành như một dự án quảng cáo của Suntory để quảng cáo cho
+                        thức
+                        uống năng lượng mới của họ có tên Zone. Đĩa đơn được phát hành chính thức vào ngày 11 tháng 5
+                        năm
+                        2020.</p>
+                </div>
+                <div id="total-hide" onclick="openbio()" status="close">Xem toàn bộ</div>
+            </div>
+            <div id="album">
+                <span style="color: #2daaed; font-size: 30px;">ALBUM YOASOBI </span>
+                <span style="font-size: 30px;color: #2daaed;"> ></span>
+                <div class="img-line">
+                    <div class="line-items">
+                        <a href=""><img src="./img/the book.jpg" alt="">
+                            <p>THE BOOK</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                    </div>
+                    <div class="line-items">
+                    </div>
+                    <div class="line-items">
+                    </div>
+                    <div class="line-items">
+                    </div>
+                </div>
+            </div>
+            <div id="mv">
+                <span style="color: #2daaed; font-size: 30px;">MV YOASOBI </span>
+                <span style="font-size: 30px;color: #2daaed;"> ></span>
+                <div class="img-line">
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=x8VYWazR5mE"><img src="./img/YNK.jpg" alt="">
+                            <p>夜に駆ける</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=sAuEeM_6zpk"><img src="./img/ano yume.jpg" alt="">
+                            <p>あの夢をなぞって</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=kzdJkT4kp-A"><img src="./img/halzion.jpg" alt="">
+                            <p>ハルジオン</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=8iuLXODzL04"><img src="./img/tabun.jpg" alt="">
+                            <p>たぶん</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=Y4nEEZwckuU"><img src="./img/gunjou.jpg" alt="">
+                            <p>群青</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-line">
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=vd3IlOjSUGQ"><img src="./img/haruka.png" alt="">
+                            <p>ハルカ</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=dy90tA3TT1c"><img src="./img/kaibutsu.jpg" alt="">
+                            <p>怪物</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=vcGbefQBvJ4"><img src="./img/encore.jpg" alt="">
+                            <p>アンコール</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=VyvhvlYvRnc"><img src="./img/YS.jpg" alt="">
+                            <p>優しい彗星</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                    </div>
+                </div>
+            </div>
+            <div id="list">
+                <span style="color: #2daaed; font-size: 30px;">BÀI HÁT YOASOBI </span>
+                <span style="font-size: 30px;color: #2daaed;"> ></span>
+                <div class="song">
+                    <img class="anh" src="./img/YNK.jpg" alt="">
+                    <div class="name">
+                        <h1>夜に駆ける</h1>
+                        <h3>YOASOBI</h3>
+                    </div>
+                    <div class="listened">
+                        <img src="./img/headphones.svg" alt="">
+                        <p>5,301,208</p>
+                    </div>
+                    <div class="icon-div">
+                        <div class="icon">
+                            <div class="stay">
+                                <img class="base-img" onmouseover="moveup(0)" src="./img/play.svg" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="stay" >
+                                <img class="base-img" onmouseover="moveup(1)" src="./img/add.svg" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/add.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="song">
+                    <img class="anh" src="./img/YS.jpg" alt="">
+                    <div class="name">
+                        <h1>優しい彗星</h1>
+                        <h3>YOASOBI</h3>
+                    </div>
+                    <div class="listened">
+                        <img src="./img/headphones.svg" alt="">
+                        <p>5,301,208</p>
+                    </div>
+                    <div class="icon-div">
+                        <div class="icon">
+                            <div class="stay">
+                                <img class="base-img" src="./img/play.svg" onmouseover="moveup(2)" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="stay">
+                                <img class="base-img" onmouseover="moveup(3)" src="./img/add.svg" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/add.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="song">
+                    <img class="anh" src="./img/encore.jpg" alt="">
+                    <div class="name">
+                        <h1>アンコール</h1>
+                        <h3>YOASOBI</h3>
+                    </div>
+                    <div class="listened">
+                        <img src="./img/headphones.svg" alt="">
+                        <p>5,301,208</p>
+                    </div>
+                    <div class="icon-div">
+                        <div class="icon">
+                            <div class="stay">
+                                <img class="base-img" onmouseover="moveup(4)" src="./img/play.svg" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="stay" >
+                                <img class="base-img" onmouseover="moveup(5)" src="./img/add.svg" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/add.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="song">
+                    <img class="anh" src="./img/halzion.jpg" alt="">
+                    <div class="name">
+                        <h1>ハルジオン</h1>
+                        <h3>YOASOBI</h3>
+                    </div>
+                    <div class="listened">
+                        <img src="./img/headphones.svg" alt="">
+                        <p>5,301,208</p>
+                    </div>
+                    <div class="icon-div">
+                        <div class="icon">
+                            <div class="stay">
+                                <img class="base-img" src="./img/play.svg" onmouseover="moveup(6)" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="stay" >
+                                <img class="base-img" onmouseover="moveup(7)" src="./img/add.svg" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img src="./img/add.svg" class="img-hide" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="song">
+                    <img class="anh" src="./img/kaibutsu.jpg" alt="">
+                    <div class="name">
+                        <h1>怪物</h1>
+                        <h3>YOASOBI</h3>
+                    </div>
+                    <div class="listened">
+                        <img src="./img/headphones.svg" alt="">
+                        <p>5,301,208</p>
+                    </div>
+                    <div class="icon-div">
+                        <div class="icon">
+                            <div class="stay">
+                                <img class="base-img" src="./img/play.svg" onmouseover="moveup(8)" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/play.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="stay" >
+                                <img class="base-img" onmouseover="moveup(9)" src="./img/add.svg" alt="">
+                            </div>
+                            <div class="hide-img">
+                                <img class="img-hide" src="./img/add.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <span style="color: #2daaed; font-size: 30px;">ALBUM MỚI </span>
+            <span style="font-size: 30px;color: #2daaed;"> ></span>
+            <div id="head-playlist">
+                <img src="./img/ladybug.jpeg" alt="">
+                <p>Ladybug - LiSA</p>
+            </div>
+            <div class="line-album">
+                <div class="left-side">
+                    <h1>Main Dish</h1>
+                    <p>DISH//</p>
+                </div>
+                <div class="right-side">
+                    <img src="./img/headphones.svg" alt="">
+                    <p style="color: #999;">1,261</p>
+                </div>
+            </div>
+            <div class="line-album">
+                <div class="left-side">
+                    <h1>Junkfood Junction</h1>
+                    <p>DISH//</p>
+                </div>
+                <div class="right-side">
+                    <img src="./img/headphones.svg" alt="">
+                    <p style="color: #999;">1,261</p>
+                </div>
+            </div>
+            <div class="line-album">
+                <div class="left-side">
+                    <h1>Koi-Iro-Doumei</h1>
+                    <p>Chico with Honeyworks</p>
+                </div>
+                <div class="right-side">
+                    <img src="./img/headphones.svg" alt="">
+                    <p style="color: #999;">1,261</p>
+                </div>
+            </div>
+            <div class="line-album">
+                <div class="left-side">
+                    <h1>unkown</h1>
+                    <p>REONA</p>
+                </div>
+                <div class="right-side">
+                    <img src="./img/headphones.svg" alt="">
+                    <p style="color: #999;">1,261</p>
+                </div>
+            </div>
+            <div class="line-album">
+                <div class="left-side">
+                    <h1>Who I Am</h1>
+                    <p>milet</p>
+                </div>
+                <div class="right-side">
+                    <img src="./img/headphones.svg" alt="">
+                    <p style="color: #999;">1,261</p>
+                </div>
+            </div>
+            <span style="color: #2daaed; font-size: 30px;">NGHỆ SĨ </span>
+            <span style="font-size: 30px;color: #2daaed;"> ></span>
+            <div class="big-img">
+                <div class="big-div">
+                    <p">milet</p>
+                </div>
+                <img src="./img/milet2.jpg" alt="">
+            </div>
+            <div class="row-img">
+                <div class="small-img">
+                    <div class="small-div">
+                        <p>TK</p>
+                    </div>
+                    <img src="./img/tk2.jpg" alt="">
+                </div>
+                <div class="small-img">
+                    <div class="small-div">
+                        <p>KANA-BOON</p>
+                    </div>
+                    <img src="./img/kana-boon2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="support">
+            <p>Hỗ trợ</p>
+            <div class="divide">
+                <div class="even">
+                    <a href="#">Trợ giúp</a>
+                    <a href="#">Sơ đồ</a>
+                    <a href="#">NCCI</a>
+                    <a href="#">Liên hệ quảng cáo</a>
+                </div>
+                <div class="even">
+                    <a href="#">Chính sách trợ giúp</a>
+                    <a href="#">Chính sách SHTT</a>
+                    <a href="#">Thoả thuận sử dụng</a>
+                </div>
+            </div>
+        </div>
+        <div id="other">
+            <p>Sản phẩm khác</p>
+            <div class="divide">
+                <div class="even">
+                    <a href="#">Mobile App</a>
+                    <a href="#">Mobile Web</a>
+                    <a href="#">Smart TV</a>
+                    <a href="#">Desktop</a>
+                </div>
+                <div class="even">
+                    <a href="#">Dịch vụ 3G</a>
+                    <a href="#">TFT Corp</a>
+                    <a href="#">Tuyển dụng</a>
+                </div>
+            </div>
+        </div>
+        <div id="keyword">
+            <div>
+                <p>Top từ khoá</p>
+                <a href="#">LiSA,</a>
+                <a href=""> YOASOBI,</a>
+                <a href=""> DISH//,</a>
+                <a href=""> 紅蓮華,</a>
+                <a href=""> 夜に駆ける,</a>
+                <a href=""> 炎</a>
+            </div>
+            <div>
+                <p>Kết nối với chúng tôi</p>
+                <a href="https://twitter.com/The_FirstTake"><img src="./img/twitter.svg" alt=""></a>
+                <a href="https://www.instagram.com/the_firsttake/"><img src="./img/instagram.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="yoasobi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #fc354c, #0abfbc);
+}
+
+#hobby {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#name {
+    color: #264234;
+    margin-bottom: -10px;
+}
+
+img {
+    width: 800px;
+    align-self: center;
+}
+
+h2 {
+    margin-top: -5px;
+}
+
+.effect {
+    color: #f1f1f1;
+}

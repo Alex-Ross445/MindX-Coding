@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #883236!important;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+}
+
+#header-left {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 -30px;
+}
+
+#header-left a {
+    text-align: center;
+}
+
+#tft-img {
+    width: 80%;
+    height: 60%;
+}
+
+#header-main {
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
+    align-items: center;
+}
+
+#loupe {
+    width: 10%;
+    height: 20%;
+    margin-right: -15px;
+    cursor: pointer;
+}
+
+#search-bar {
+    height: 20%;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#inputfile {
+    z-index: 2;
+    position: absolute;
+    height: 30%;
+    opacity: 0;
+    width: 23%;
+}
+
+#header-right {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+}
+
+#upload {
+    width: 58px;
+    height: 30%;
+    border-radius: 50%;
+    background-color: lightgray;
+    border-width: 0;
+    margin-right: 20px;
+}
+
+#file-img {
+    height: 70%;
+}
+
+#navbar {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 0 0 1px;
+    border-color: #000;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.nav-items {
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    color: #dadada;
+    cursor: pointer;
+    width: 33.3%;
+    border-width: 0 1px;
+    border-color: #000;
+    border-style: solid;
+}
+
+.nav-items:hover {
+    background-color: #f36565;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: #561111;
+    text-decoration: none;
+    color: #dadada;
+}
+
+#quiz {
+    background-color: #f36565;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    color: #dadada;
+    width: 33.3%;
+    border-width: 0 1px;
+    border-color: #000;
+    border-style: solid;
+}
+
+#outside-box {
+    width: 80%;
+    height: 650px;
+    background-color: #fff;
+    border: solid 1px black;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 50%!important;
+    width: 58px!important;
+    height: 58px;
+    padding-left: 8px!important;
+    background-color: lightgray!important;
+    margin: 0 20px!important;
+}
+
+.dropdown-menu {
+    background-color: lightgray!important;
+}
+
+#settings-icon, #user-icon {
+    width: 35px;
+}
+
+#first-line {
+    border-width: 1px;
+    border-color: #000;
+    border-style: none none solid;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#first-line a {
+    padding-left: 5px;
+}
+
+#settings {
+    width: 25px;
+}
+
+#img-container {
+    width: 80%;
+    height: 530px;
+    margin: 40px auto 10px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;/*need cho vị trí cái ngoài*/
+    overflow: hidden;/*không cho ra ngoài viền*/
+    background-image: url(img/background.jpg);
+    background-size: 100% 100%;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    margin-right: 20px;
+    border: 1px solid #000!important;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    margin: 10px 46% 0;
+}
+
+#leftwing, #rightwing {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute; /*cài đặt vị trí*/
+    transition: 1s;
+}
+
+#leftwing {
+    top: 0;
+    left: 0;
+}
+
+#rightwing {
+    top: 0;
+    right: 0;
+}
+
+
+#img {
+    width: 100%
+}
+
+#allquestion {
+    position: relative;
+    width: 100%;
+}
+
+#question1 {
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#question2, #question3, #question4, #question5 {
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+}
+
+#question1 h1, #question2 h1, #question3 h1, #question4 h1, #question5 h1 {
+    font-size: 48px;
+    margin-top: 15%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.answer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#summit {
+    margin-top: 20%;
+    margin-left: 70%;
+    font-weight: bold;
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.answer button {
+    width: 20%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#score {
+    background-color: #dadada;
+    position: absolute;
+    width: 0%;
+    left: 0;
+    height: 0%;
+    transition: 1s;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+#score button {
+    width: 20%;
+}
+#footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+
+#footer p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#support, #other, #keyword {
+    width: 33.3%;
+}
+
+.divide {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.even {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #00000080;
+}
+
+#footer a:hover {
+    color: #2daaed;
+}
+
+#keyword img {
+    height: 30px;
+    width: 20%;
+    margin-left: -20px;
+}

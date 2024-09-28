@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-left">
+            <a href="mainpage.html"><img id="tft-img" src="./img/tft.jpg" alt=""></a>
+        </div>
+        <div id="header-main">
+            <img id="loupe" src="./img/loupe.svg" alt="">
+            <input type="text" placeholder="Kiếm bài hát, nghệ sĩ" value="" id="search-bar">
+        </div>
+        <div id="header-right">
+            <div>
+            <input type="file" name="file" id="inputfile">
+            <button id="upload"><img id="file-img" src="./img/upload.svg" alt=""></button>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle button" type="button" data-toggle="dropdown"><img id="settings-icon" src="./img/settings.svg" alt="">
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li id="first-line"><img id="settings" src="./img/settings.svg" alt=""><a href="#">Danh sách của tôi</a></li>
+                <li class="line"><a href="#">Giới thiệu</a></li>
+                <li class="line"><a href="#">Góp ý</a></li>
+                <li class="line"><a href="#">Quảng cáo</a></li>
+                <li class="line"><a href="#">Thoả thuận sử dụng</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle button" type="button" data-toggle="dropdown"><img src="./img/user.svg" alt="">
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li id="first-line"><a href="#">Bài hát yêu thích</a></li>
+                <li class="line"><a href="#">Liên hệ</a></li>
+                <li class="line"><a href="#">Đăng kí lên VIP</a></li>
+                <li class="line"><a href="signup.html">Đăng xuất</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div id="navbar">
+        <a class="nav-items" href="singer.html">Singers</a>
+        <a class="nav-items" href="community.html">Community</a>
+        <a class="nav-items" href="quiz.html ">Quiz</a>
+    </div>
+    <div id="inside">
+        <div id="first-body">
+            <div id="moving-img">
+                <img count="1" id="big-img" src="./img/song1.png" alt="">
+                <a id="link-youtube" href="https://www.youtube.com/watch?v=V5Z5LR0NrBo"></a>
+                <div id="underling">
+                    <a href=""><img onmouseover="change_src('img/song1.2.png')" src="./img/song1.png" alt=""></a>
+                    <a href=""><img onmouseover="change_src('img/song2.2.png')" src="./img/song2.png" alt=""></a>
+                    <a href=""><img onmouseover="change_src('img/song3.2.png')" src="./img/song3.png" alt=""></a>
+                    <a href=""><img onmouseover="change_src('img/song4.2.png')" src="./img/song4.png" alt=""></a>
+                    <a href=""><img onmouseover="change_src('img/song5.2.png')" src="./img/song5.png" alt=""></a>
+                </div>
+            </div>
+            <div id="moving-singer">
+                <img count="1" id="core-img" src="./img/lisa.jpg" alt="">
+                <p style="font-size: 30px;font-weight: bold;">Top singers</p>
+                <!-- <p id="name" style="font-size: 18px;">LiSA</p> -->
+                <div id="singer-img">
+                    <div id="line1">
+                        <img onmouseover="change_img('img/lisa.jpg')" src="./img/lisa.jpg" alt="">
+                        <img onmouseover="change_img('img/dish.png')" src="./img/dish.png" alt="">
+                        <img onmouseover="change_img('img/milet.jpg')" src="./img/milet.jpg" alt="">
+                    </div>
+                    <div id="line2">
+                        <img onmouseover="change_img('img/BlueEncount.jpg')" src="./img/BlueEncount.jpg" alt="">
+                        <img onmouseover="change_img('img/reona.jpg')" src="./img/reona.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="second-body">
+            <div id="first-half">
+                <div class="line">
+                    <span style="color: #2daaed; font-size: 30px;">Nghe gì hôm nay </span>
+                    <span style="font-size: 20px;color: #2daaed;"> ></span>
+                </div>
+                <div class="img-line">
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=4Q9DWZLaY2U"><img src="./img/linesong1.png" alt="">
+                            <p>炎</p>
+                            <p>LiSA</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=tzugFJc_Lkg"><img src="./img/linesong2.png" alt="">
+                            <p>この夜を止めてよ</p>
+                            <p>JUJU</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=tL2H4bNHVGM"><img src="./img/linesong3.png" alt="">
+                            <p>真っ白</p>
+                            <p>yama</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=qNrAN0V7DX4"><img src="./img/linesong4.png" alt="">
+                            <p>木綿のハンカチーフ</p>
+                            <p>橋本愛</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=T7DY0FXJV18"><img src="./img/linesong5.png" alt="">
+                            <p>SLUMP -Japanese ver.</p>
+                            <p>Stray Kids</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="line">
+                    <span style="color: #2daaed; font-size: 30px;">Top 25 THE FIRST TAKE </span>
+                    <span style="font-size: 20px;color: #2daaed;"> ></span>
+                </div>
+                <div class="img-line">
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=MpYy6wwqxoo"><img src="./img/top1.png" alt="">
+                            <p>紅蓮華</p>
+                            <p>LiSA</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=gsT6eKsnT0M"><img src="./img/top2.png" alt="">
+                            <p>猫</p>
+                            <p>DISH// (北村匠海)</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=j1hft9Wjq9U"><img src="./img/top3.png" alt="">
+                            <p>夜に駆ける</p>
+                            <p>YOASOBI</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=4Q9DWZLaY2U"><img src="./img/top4.png" alt="">
+                            <p>炎</p>
+                            <p>LiSA</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=impSuIygMiQ"><img src="./img/top5.png" alt="">
+                            <p>再会 (produced by Ayase)</p>
+                            <p>LiSA×Uru</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="line">
+                    <span style="color: #2daaed; font-size: 30px;">THE FIRST TAKE FES </span>
+                    <span style="font-size: 20px;color: #2daaed;"> ></span>
+                </div>
+                <div class="img-line">
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=MshLY-zfldM"><img src="./img/fes1.png" alt="">
+                            <p>THE FIRST TAKE FES 2020.09.05 / LINEUP ANNOUNCEMENT</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=0ZcS-k5TXSg"><img src="./img/fes2.png" alt="">
+                            <p>WHAT IS THE FIRST TAKE FES vol.1 / 視聴の楽しみ方</p>
+                        </a>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=js05ruSiGZU"><img src="./img/fes3.png" alt="">
+                            <p>Welcome My Friend , NO MORE MUSIC / THE FIRST TAKE FES vol.1</p>
+                        </a>
+                        <p>OKAMOTO'S</p>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=W34CoKVr_eg"><img src="./img/fes4.png" alt="">
+                            <p>YES , エクレア / THE FIRST TAKE FES vol.1</p>
+                        </a>
+                        <p>岡崎体育</p>
+                    </div>
+                    <div class="line-items">
+                        <a href="https://www.youtube.com/watch?v=-aO6vdVdK3c"><img src="./img/fes5.png" alt="">
+                            <p>Wild Side , Better Days / THE FIRST TAKE FES vol.1</p>
+                        </a>
+                        <p>ALI</p>
+                    </div>
+                </div>
+            </div>
+            <div id="second-half">
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="support">
+            <p>Hỗ trợ</p>
+            <div class="divide">
+                <div class="even">
+                    <a href="#">Trợ giúp</a>
+                    <a href="#">Sơ đồ</a>
+                    <a href="#">NCCI</a>
+                    <a href="#">Liên hệ quảng cáo</a>
+                </div>
+                <div class="even">
+                    <a href="#">Chính sách trợ giúp</a>
+                    <a href="#">Chính sách SHTT</a>
+                    <a href="#">Thoả thuận sử dụng</a>
+                </div>
+            </div>
+        </div>
+        <div id="other">
+            <p>Sản phẩm khác</p>
+            <div class="divide">
+                <div class="even">
+                    <a href="#">Mobile App</a>
+                    <a href="#">Mobile Web</a>
+                    <a href="#">Smart TV</a>
+                    <a href="#">Desktop</a>
+                </div>
+                <div class="even">
+                    <a href="#">Dịch vụ 3G</a>
+                    <a href="#">TFT Corp</a>
+                    <a href="#">Tuyển dụng</a>
+                </div>
+            </div>
+        </div>
+        <div id="keyword">
+            <div>
+            <p>Top từ khoá</p>
+            <a href="#">LiSA,</a>
+            <a href=""> YOASOBI,</a>
+            <a href=""> DISH//,</a>
+            <a href=""> 紅蓮華,</a>
+            <a href=""> 夜に駆ける,</a>
+            <a href=""> 炎</a>
+        </div>
+        <div>
+            <p>Kết nối với chúng tôi</p>
+            <a href="https://twitter.com/The_FirstTake"><img src="./img/twitter.svg" alt=""></a>
+            <a href="https://www.instagram.com/the_firsttake/"><img src="./img/instagram.svg" alt=""></a>
+        </div>
+        </div>
+    </div>
+
+    <script src="mainpage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

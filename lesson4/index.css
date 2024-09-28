@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#header {
+    width: 100%;
+    height: 10vh;
+    /* chỉnh độ cao, đơn vị px, vh (so với màn hình chính) */
+    display: flex;
+}
+#header-left{
+    height: 100%;
+    width: 17%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#soc {
+    height: 30%;
+    width: 20%;
+    margin-left: 13px;
+}
+
+#youtube {
+    height: 70%;
+    width: 16%;
+}
+
+#search-bar {
+    height: 40%;
+    width: 80%;
+    font-size: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    margin-left: 20px;
+}
+#header-main{
+    height: 100%;
+    width: 63%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#btn {
+    height: 45%;
+    width: 10%;
+}
+
+#loupe {
+    height: 80%;
+}
+#header-right{
+    height: 100%;
+    width: 20%;
+    background-color: orange;
+}
+#main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+#main-left{
+    width: 17%;
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+}
+.container-left{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.each-selector{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.each-selector:hover {
+    background-color: #e8e8e4;
+}
+
+.icon-category {
+    color: grey;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.icon-categories {
+    color: grey;
+    width: 10%;
+    margin-left: 10px;
+}
+
+.title-selector {
+    margin-left: 20px;
+}
+
+#main-right{
+    width: 83%;
+    height: 100%;
+    background-color: rgb(246, 246, 246);
+}  
+.each-row-right{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    height: 42%;
+}
+.each-box-right{ 
+    width: 23%;
+    height: 100%;
+}
+
+.each-detail{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+.each-detail-first{
+    width: 100%;
+    height: 60%;
+    margin-bottom: 4px;
+}
+
+.page {
+    width: 13%;
+    height: 50%;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.each-detail p {
+    margin: 0;
+}
+
+.name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}

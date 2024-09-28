@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="community.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-left">
+            <a href="mainpage.html"><img id="tft-img" src="./img/tft.jpg" alt=""></a>
+        </div>
+        <div id="header-main">
+            <img id="loupe" src="./img/loupe.svg" alt="">
+            <input type="text" placeholder="Kiếm bài hát, nghệ sĩ" value="" id="search-bar">
+        </div>
+        <div id="header-right">
+            <div>
+                <input type="file" name="file" id="inputfile">
+                <button id="upload"><img id="file-img" src="./img/upload.svg" alt=""></button>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle button" type="button" data-toggle="dropdown"><img id="settings-icon" src="./img/settings.svg" alt="">
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li id="first-line"><img id="settings" src="./img/settings.svg" alt=""><a href="#">Danh sách của tôi</a></li>
+                    <li class="line"><a href="#">Giới thiệu</a></li>
+                    <li class="line"><a href="#">Góp ý</a></li>
+                    <li class="line"><a href="#">Quảng cáo</a></li>
+                    <li class="line"><a href="#">Thoả thuận sử dụng</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle button" type="button" data-toggle="dropdown"><img src="./img/user.svg" alt="">
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li id="first-line"><a href="#">Bài hát yêu thích</a></li>
+                    <li class="line"><a href="#">Liên hệ</a></li>
+                    <li class="line"><a href="#">Đăng kí lên VIP</a></li>
+                    <li class="line"><a href="signup.html">Đăng xuất</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="navbar">
+        <a class="nav-items" href="singer.html">Singers</a>
+        <a id="community" class="nav-items" href="community.html">Community</a>
+        <a class="nav-items" href="quiz.html">Quiz</a>
+    </div>
+    <div id="main-body">
+        <div class="body-each">
+            <div class="anh">
+                <img src="./img/tft.jpg" alt="">
+            </div>
+            <div class="inside">
+                <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q" class="title">THE FIRST TAKE ・</a>
+                <span class="word"> 3 days ago</span>
+                <p>第96回は、<span class="highlight">#YOASOBI</span> が、Ayase・ikuraの2人揃って初登場。</p>
+                <p>今回は、人気マンガ『ブルーピリオド』（作・山口つばさ）にインスパイアされて生まれ、ブルボン「アルフォートミニチョコレート」TVCMでもおなじみの人気曲「<span
+                        class="highlight">#群青</span>」をメディア初歌唱する。
+                </p>
+                <p>楽曲の中でも印象的な合唱パートにぷらそにかのメンバーを迎え、バンドメンバーと共に圧巻のパフォーマンスを一発撮りで披露する。</p>
+                <a href="https://www.youtube.com/watch?v=NyUTYwZe_l4">
+                    <div class="link">
+                        <img src="./img/gunjo.jpg" alt="">
+                        <div class="title-name">
+                            <p class="title">YOASOBI - 群青 / THE FIRST TAKE</p>
+                            <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q">THE FIRST TAKE</a>
+                            <span> ・ 7.1 million views</span>
+                            <span> ・ 3 days ago</span>
+                            <p style="font-size: 15px;">「THE FIRST TAKE」は、一発撮りのパフォーマンスを鮮明に切り取るYouTubeチャンネル。
+                                ONE TAKE ONLY, ONE LIFE ONLY. 一発撮りで、音楽と向き合う。</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="icon">
+                    <i class="click far fa-thumbs-up" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-thumbs-down" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-comments" status="black" onclick="myFunction()"></i>
+                </div>
+            </div>
+        </div>
+        <div class="body-each">
+            <div class="anh">
+                <img src="./img/tft.jpg" alt="">
+            </div>
+            <div class="inside">
+                <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q" class="title">THE FIRST TAKE ・</a>
+                <span class="word"> 2 weeks ago</span>
+                <p>Thank you!!100,000,000 Views <span class="highlight">#LiSA</span> [<span
+                        class="highlight">#紅蓮華</span>] </p>
+                <p>LiSA「紅蓮華」が、<span class="highlight">#1億回視聴</span>を記録！</p>
+                <p>引き続き<span class="highlight">#THEFIRSTTAKE</span>でお楽しみください。</p>
+                <a href="https://www.youtube.com/watch?v=MpYy6wwqxoo">
+                    <div class="link">
+                        <img src="./img/top1.png" alt="">
+                        <div class="title-name">
+                            <p class="title">LiSA - 紅蓮華 / THE FIRST TAKE</p>
+                            <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q">THE FIRST TAKE</a>
+                            <span> ・ 102 million views</span>
+                            <span> ・ 1 year ago</span>
+                            <p style="font-size: 15px;">「THE FIRST TAKE」は、アーティストの一発撮りのパフォーマンスをよりリアルに、鮮明に届けるYouTubeチャンネル。
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <div class="icon">
+                    <i class="click far fa-thumbs-up" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-thumbs-down" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-comments" status="black" onclick="myFunction()"></i>
+                </div>
+            </div>
+        </div>
+        <div class="body-each">
+            <div class="anh">
+                <img src="./img/tft.jpg" alt="">
+            </div>
+            <div class="inside">
+                <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q" class="title">THE FIRST TAKE ・</a>
+                <span class="word"> 3 weeks ago</span>
+                <p>DISH// 「<span class="highlight">#猫</span>」100,000,000 Views !!</p>
+                <p>昨年3月に公開された <span class="highlight">#DISH</span>// (<span class="highlight">#北村匠海</span>) 「猫」が、<span
+                        class="highlight">#1億回視聴</span>を達成 !!</p>
+                <p>を達成 !! <span class="highlight">#THEFIRSTTAKE</span> をお楽しみください。</p>
+                <a href="https://www.youtube.com/watch?v=gsT6eKsnT0M">
+                    <div class="link">
+                        <img src="./img/top2.png" alt="">
+                        <div class="title-name">
+                            <p class="title">DISH// (北村匠海) - 猫 / THE FIRST TAKE</p>
+                            <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q">THE FIRST TAKE</a>
+                            <span> ・ 110 million views</span>
+                            <span> ・ 11 months ago</span>
+                            <p style="font-size: 15px;">「THE FIRST TAKE」は、一発撮りのパフォーマンスを鮮明に切り取るYouTubeチャンネル。
+                                “音楽とは、何か。一発撮りで、向き合う。”</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="icon">
+                    <i class="click far fa-thumbs-up" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-thumbs-down" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-comments" status="black" onclick="myFunction()"></i>
+                </div>
+            </div>
+        </div>
+        <div class="body-each">
+            <div class="anh">
+                <img src="./img/tft.jpg" alt="">
+            </div>
+            <div class="inside">
+                <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q" class="title">THE FIRST TAKE ・</a>
+                <span class="word"> 2 months ago</span>
+                <p>【<span class="highlight">#THEFIRSTTAKE2020</span>】
+                    THANK YOU 2020！「 <span class="highlight">#THEHOMETAKE</span>」の再生リストを公開↓</p>
+                <p>▶FULL SHOW ON YOUTUBE：<span class="highlight">https://lnk.to/tIWkm025</span></p>
+                <p><span class="highlight">#miwa</span></p>
+                <p><span class="highlight">#milet</span></p>
+                <p><span class="highlight">#YOASOBI</span></p>
+                <p><span class="highlight">#BLUEENCOUNT</span></p>
+                <p><span class="highlight">#Omoinotake</span></p>
+                <a href="">
+                    <div class="link">
+                        <img src="./img/top3.png" alt="">
+                        <div class="title-name">
+                            <p class="title">YOASOBI - 夜に駆ける / THE HOME TAKE</p>
+                            <a href="https://www.youtube.com/channel/UC9zY_E8mcAo_Oq772LEZq8Q">THE FIRST TAKE</a>
+                            <span> ・ 7.1 million views</span>
+                            <span> ・ 3 days ago</span>
+                            <p style="font-size: 15px;">「THE HOME TAKE」は、アーティストの自宅やプライベートスタジオから、一発撮りで届けるYouTubeコンテンツ。
+                            </p>
+                            <p>""いま、こんなときだからこそ、音楽を届けたい。すべては、家の中からはじまる。""</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="icon">
+                    <i class="click far fa-thumbs-up" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-thumbs-down" status="black" onclick="myFunction()"></i>
+                    <i class="click far fa-comments" status="black" onclick="myFunction()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="support">
+            <p>Hỗ trợ</p>
+            <div class="divide">
+                <div class="even">
+                    <a href="#">Trợ giúp</a>
+                    <a href="#">Sơ đồ</a>
+                    <a href="#">NCCI</a>
+                    <a href="#">Liên hệ quảng cáo</a>
+                </div>
+                <div class="even">
+                    <a href="#">Chính sách trợ giúp</a>
+                    <a href="#">Chính sách SHTT</a>
+                    <a href="#">Thoả thuận sử dụng</a>
+                </div>
+            </div>
+        </div>
+        <div id="other">
+            <p>Sản phẩm khác</p>
+            <div class="divide">
+                <div class="even">
+                    <a href="#">Mobile App</a>
+                    <a href="#">Mobile Web</a>
+                    <a href="#">Smart TV</a>
+                    <a href="#">Desktop</a>
+                </div>
+                <div class="even">
+                    <a href="#">Dịch vụ 3G</a>
+                    <a href="#">TFT Corp</a>
+                    <a href="#">Tuyển dụng</a>
+                </div>
+            </div>
+        </div>
+        <div id="keyword">
+            <div>
+                <p>Top từ khoá</p>
+                <a href="#">LiSA,</a>
+                <a href=""> YOASOBI,</a>
+                <a href=""> DISH//,</a>
+                <a href=""> 紅蓮華,</a>
+                <a href=""> 夜に駆ける,</a>
+                <a href=""> 炎</a>
+            </div>
+            <div>
+                <p>Kết nối với chúng tôi</p>
+                <a href="https://twitter.com/The_FirstTake"><img src="./img/twitter.svg" alt=""></a>
+                <a href="https://www.instagram.com/the_firsttake/"><img src="./img/instagram.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="community.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+img {
+    width: 900px;
+}
+
+body {
+    background: linear-gradient(to right, #fc354c, #0abfbc);
+    margin: 0;
+}
+
+.info {
+    background-color: blanchedalmond;
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.name {
+    color: rgb(141, 131, 131);
+}
+
+#age {
+    color: #2a1485b6;
+}
+
+#school {
+    font-size: 23px;
+}

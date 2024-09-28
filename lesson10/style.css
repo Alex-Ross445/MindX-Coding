@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+#outside-box {
+    width: 40%;
+    height: 500px;
+    background-color: #fff;
+    border: solid 1px black;
+    margin: 0 auto;
+}
+
+
+#img-container {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto 10px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;/*need cho vị trí cái ngoài*/
+    overflow: hidden;/*không cho ra ngoài viền*/
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 70px;
+    margin: 5px;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    margin: 10px 46% 0;
+}
+
+#leftwing, #rightwing {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute; /*cài đặt vị trí*/
+    transition: 1s;
+}
+
+#leftwing {
+    top: 0;
+    left: 0;
+}
+
+#rightwing {
+    top: 0;
+    right: 0;
+}
+
+
+#img {
+    width: 100%;
+}
+
+#overarrow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: -437.9px;
+}
+
+#arrowleft, #arrowright {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#arrowleft img, #arrowright img {
+    width: 80%;
+    margin: auto;
+}
+
+#arrowleft:hover, #arrowright:hover {
+    background-color: #fff;
+}

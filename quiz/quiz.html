@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div id="title">
+        <h1 style="color: red; font-size: 40px;font-family: 'Times New Roman', Times, serif;">Questions for E2k53</h1>
+    </div>
+
+    <div id="main">
+        <div id="task1">
+            <div id="part1">
+                <div class="line">
+                    <div class="question">Question 1:</div>
+                    <input id="ans1" class="input" type="text">
+                    <div class="check">
+                        <img id="tick1" src="./tick.jpg" alt="">
+                        <img id="cross1" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector1" src="./vector.jpg" alt="">
+                    <div id="trueans1">Two out of ten</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 2:</div>
+                    <input id="ans2" class="input" type="text">
+                    <div class="check">
+                        <img id="tick2" src="./tick.jpg" alt="">
+                        <img id="cross2" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector2" src="./vector.jpg" alt="">
+                    <div id="trueans2">Hunter-gatherers</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 3:</div>
+                    <input id="ans3" class="input" type="text">
+                    <div class="check">
+                        <img id="tick3" src="./tick.jpg" alt="">
+                        <img id="cross3" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector3" src="./vector.jpg" alt="">
+                    <div id="trueans3">Semi-permanent</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 4:</div>
+                    <input id="ans4" class="input" type="text">
+                    <div class="check">
+                        <img id="tick4" src="./tick.jpg" alt="">
+                        <img id="cross4" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector4" src="./vector.jpg" alt="">
+                    <div id="trueans4">Irrigation and food tilling</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 5:</div>
+                    <input id="ans5" class="input" type="text">
+                    <div class="check">
+                        <img id="tick5" src="./tick.jpg" alt="">
+                        <img id="cross5" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector5" src="./vector.jpg" alt="">
+                    <div id="trueans5">Twice</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 6:</div>
+                    <input id="ans6" class="input" type="text">
+                    <div class="check">
+                        <img id="tick6" src="./tick.jpg" alt="">
+                        <img id="cross6" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector6" src="./vector.jpg" alt="">
+                    <div id="trueans6">Industrial Revolution</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 7:</div>
+                    <input id="ans7" class="input" type="text">
+                    <div class="check">
+                        <img id="tick7" src="./tick.jpg" alt="">
+                        <img id="cross7" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector7" src="./vector.jpg" alt="">
+                    <div id="trueans7">Sanitation departments</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 8:</div>
+                    <input id="ans8" class="input" type="text">
+                    <div class="check">
+                        <img id="tick8" src="./tick.jpg" alt="">
+                        <img id="cross8" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector8" src="./vector.jpg" alt="">
+                    <div id="trueans8">7 billion</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 9:</div>
+                    <input id="ans9" class="input" type="text">
+                    <div class="check">
+                        <img id="tick9" src="./tick.jpg" alt="">
+                        <img id="cross9" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector9" src="./vector.jpg" alt="">
+                    <div id="trueans9">Vertical farms</div>
+                </div>
+                <div class="line">
+                    <div class="question">Question 10:</div>
+                    <input id="ans10" class="input" type="text">
+                    <div class="check">
+                        <img id="tick10" src="./tick.jpg" alt="">
+                        <img id="cross10" src="./cross.jpg" alt="">
+                    </div>
+                    <img id="vector10" src="./vector.jpg" alt="">
+                    <div id="trueans10">Malleable</div>
+                </div>
+                <button onclick="tf()">Check answers</button>
+                <!-- <button onclick="show()" id="show">Show answers</button> -->
+            </div>
+            <div id="part2">
+                <div id="square1">
+                    <h1 id="number">Number ???</h1>
+                    <button onclick="changenumber()">Choose number</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div id="task2">
+            <div class="secondline">
+                <div id="secondques1">Question 6: </div>
+                <div class="checkbox">
+                    <div onclick="changecolor1_1()" id="ans1_1" class="circle"></div>
+                    <div onclick="changecolor1_2()" id="ans1_2" class="circle"></div>
+                    <div onclick="changecolor1_3()" id="ans1_3" class="circle"></div>
+                    <div onclick="changecolor1_4()" id="ans1_4" class="circle"></div>
+                </div>
+            </div>
+            <div class="secondline">
+                <div id="secondques2">Question 7: </div>
+                <div class="checkbox">
+                    <div onclick="changecolor2_1()" id="ans2_1" class="circle"></div>
+                    <div onclick="changecolor2_2()" id="ans2_2" class="circle"></div>
+                    <div onclick="changecolor2_3()" id="ans2_3" class="circle"></div>
+                    <div onclick="changecolor2_4()" id="ans2_4" class="circle"></div>
+                </div>
+            </div>
+            <div class="secondline">
+                <div id="secondques3">Question 8: </div>
+                <div class="checkbox">
+                    <div onclick="changecolor3_1()" id="ans3_1" class="circle"></div>
+                    <div onclick="changecolor3_2()" id="ans3_2" class="circle"></div>
+                    <div onclick="changecolor3_3()" id="ans3_3" class="circle"></div>
+                    <div onclick="changecolor3_4()" id="ans3_4" class="circle"></div>
+                </div>
+            </div>
+            <div class="secondline">
+                <div id="secondques4">Question 9: </div>
+                <div class="checkbox">
+                    <div onclick="changecolor4_1()" id="ans4_1" class="circle"></div>
+                    <div onclick="changecolor4_2()" id="ans4_2" class="circle"></div>
+                    <div onclick="changecolor4_3()" id="ans4_3" class="circle"></div>
+                    <div onclick="changecolor4_4()" id="ans4_4" class="circle"></div>
+                </div>
+            </div>
+            <div class="secondline">
+                <div id="secondques5">Question 10: </div>
+                <div class="checkbox">
+                    <div onclick="changecolor5_1()" id="ans5_1" class="circle"></div>
+                    <div onclick="changecolor5_2()" id="ans5_2" class="circle"></div>
+                    <div onclick="changecolor5_3()" id="ans5_3" class="circle"></div>
+                    <div onclick="changecolor5_4()" id="ans5_4" class="circle"></div>
+                </div>
+            </div>
+            <button onclick="colorchange()">Check answers</button>
+        </div> -->
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

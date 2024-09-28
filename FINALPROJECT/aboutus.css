@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#aboveimg {
+    background-image: url(./BackgroundAU.jpg);
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#bio {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.left img {
+    height: 400px;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    width: 60%;
+}
+
+.right p {
+    margin: 5px 0;
+}
+
+#overall {
+    display: flex;
+    justify-content: flex-start;
+}

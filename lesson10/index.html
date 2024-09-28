@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="outside-box">
+        <div id="img-container">
+            <img id="img" count="1" src="./img1.jpg" alt="">
+            <div id="leftwing" status="open"></div>
+            <div id="rightwing" status="open"></div>
+            <div id="overarrow">
+                <div id="arrowleft" onclick="changeleft()">
+                    <img src="./left-arrow.svg" alt="">
+                </div>
+                <div id="arrowright" onclick="changeright()">
+                    <img src="./right-arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="btn">
+            <button onclick="changeleft()" class="btn">Pre</button>
+            <button onclick="changeright()" class="btn">Next</button>
+        </div>
+
+    </div>
+    <button id="button" onclick="animation()">Open</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

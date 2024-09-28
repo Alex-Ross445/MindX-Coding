@@ -1,0 +1,38 @@
+body {
+    margin:0;
+}
+
+.container {
+    width: auto;
+}
+
+.title {
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+#info {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;/*che đi đoạn ra ngoài*/
+    /* overflow: auto: mở rộng ra */
+    background-image: url(./sad.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: left 0.5s;/* delay 0,5s */
+    border-radius: 10px;
+}
+
+#img {
+    width: 200px;
+}

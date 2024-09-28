@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+#square {
+    height: 200px;
+    width: 400px;
+    background-color: sandybrown;
+}
+
+#img {
+    width: 300px;
+}
+
+#container-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: slateblue;
+    cursor: pointer;
+}

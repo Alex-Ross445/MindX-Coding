@@ -1,0 +1,32 @@
+.button {
+    border-radius: 50%!important;
+    width: 50px;
+    height: 50px;
+}
+
+.dropdown-menu {
+    background-color: lightgray!important;
+}
+
+#first-line {
+    border-width: 1px;
+    border-color: #000;
+    border-style: none none solid;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#first-line a {
+    padding-left: 5px;
+}
+
+#settings {
+    width: 25px;
+}
+
+#square1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

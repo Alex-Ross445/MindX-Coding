@@ -1,0 +1,7 @@
+#container {
+    display: flex;
+    justify-content: center;
+    color: rebeccapurple;
+    background-color: salmon;
+    font-size: 20px;
+}

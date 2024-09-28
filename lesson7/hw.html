@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hw.css">
+</head>
+<body>
+    <div id="main">
+        <div id="box1">
+            <h1 style="text-decoration: underline;text-align: center;">BMI</h1>
+            <h2>Height?</h2>
+            <input id="height" type="text" placeholder="ti nhap sau">
+            <h2>Weight?</h2>
+            <input id="weight" type="text" placeholder="ti nhap sau">
+            <button onclick="check()">SUMMIT</button>
+        </div>
+        <div id="box2">
+            <h1 style="text-decoration: underline;text-align: center;">Thông tin chỉ số</h1>
+            <div class="input">
+                <h2>Height :</h2>
+                <h2 id="inheight"></h2>
+            </div>
+            <div class="input">
+                <h2>Weight :</h2>
+                <h2 id="inweight"></h2>
+            </div>
+            <div class="input">
+                <h2>BMI :</h2>
+                <h2 id="bmi"></h2>
+            </div>
+            <div class="input">
+                <h2>Status :</h2>
+                <h2 id="sum"></h2>
+            </div>
+        </div>
+    </div>
+    <script src="hw.js"></script>
+</body>
+</html>
